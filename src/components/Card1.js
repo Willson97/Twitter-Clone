@@ -1,14 +1,12 @@
 import React from 'react';
 import {Card, CardActions, CardHeader, CardMedia, CardTitle, CardText} from 'material-ui/Card';
-import FlatButton from 'material-ui/FlatButton';
-import TwitterImage from './Images/Twitter.png' ;
-import HasuraChristmas from './Images/HasuraChristmas.jpg';
+//import HasuraChristmas from '.../Images/HasuraChristmas.jpg';
 import Avatar from 'material-ui/Avatar';
 import FontIcon from 'material-ui/FontIcon';
 import IconButton from 'material-ui/IconButton';
-import RaisedButton from 'material-ui/RaisedButton';
 
-//import dev1 from './Images/dev.png';
+
+
 
 var StyleMainCard={
 
@@ -42,31 +40,31 @@ const Card1 = () => (
      Wishing everyone a merry Christmas and happy holidays!  - from all of us at Hasura :) #Christmas #HappyHolidays #startuplife
     </CardText>
     <CardMedia >
-       <img src={ HasuraChristmas} alt="Hausra Christmas"  />
+       <img src="../Images/HasuraChristmas.jpg" alt="Hausra Christmas"  />
      </CardMedia>
     <CardActions>
 <div>
   <span>  <IconButton tooltip="Reply">
         <FontIcon className="fa fa-comment-o" aria-hidden="true" />
-        // use An IconButton to generate a button element around an icon
+
        </IconButton>
 </span>
 <span>
        <IconButton tooltip="Retweet">
            <FontIcon className="fa fa-retweet" aria-hidden="true" />
-           // use An IconButton to generate a button element around an icon
+      
           </IconButton>
   </span>
   <span  style={{float:"right"}}>
          <IconButton tooltip="Direct Message">
              <FontIcon className="fa fa-envelope-o" aria-hidden="true"/>
-             // use An IconButton to generate a button element around an icon
+       
             </IconButton>
     </span>
     <span style={{float:"right"}}>
            <IconButton tooltip="Like">
                <FontIcon className="fa fa-heart-o" aria-hidden="true" /> label="700"
-               // use An IconButton to generate a button element around an icon
+            
               </IconButton>
       </span>
 

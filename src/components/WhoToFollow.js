@@ -1,14 +1,8 @@
 import React from 'react';
 import Paper from 'material-ui/Paper';
 import Avatar from 'material-ui/Avatar';
-import FileFolder from 'material-ui/svg-icons/file/folder';
-import FontIcon from 'material-ui/FontIcon';
-import List from 'material-ui/List/List';
-import ListItem from 'material-ui/List/ListItem';
-import Twitter from './Images/Twitter.png';
 import FlatButton from 'material-ui/FlatButton';
 import Divider from 'material-ui/Divider';
-import {blue500,red900,cyan800,black} from 'material-ui/styles/colors';
  import '../App.css';
 
 
@@ -23,12 +17,7 @@ const style = {
   top:'70px',
   right:'0',
 };
-const style1 = {
-  height: 100,
-  width: 100,
-  margin: 20,
 
-};
 var buttonStyle={
   backgroundColor: '#FFFFFF',
 borderRadius:50 ,

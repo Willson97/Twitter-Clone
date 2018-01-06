@@ -1,16 +1,8 @@
 import React from 'react';
-import ReactDom from 'react-dom';
-import AppBar from 'material-ui/AppBar';
-import IconButton from 'material-ui/IconButton';
 import FontIcon from 'material-ui/FontIcon';
-import FlatButton from 'material-ui/FlatButton';
 import '../App.css';
-import getMuiTheme from 'material-ui/styles/getMuiTheme';
-import {indigo900,blue100,red900,cyan800} from 'material-ui/styles/colors';
-import cyan500 from 'material-ui/styles/colors';
-import TwitterImage from './Images/Twitter.png' ;
+import {indigo900,blue100} from 'material-ui/styles/colors';
 import TextField from 'material-ui/TextField';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import '../App.css';
 import Paper from 'material-ui/Paper';
 
@@ -54,7 +46,7 @@ const Postbar1 = () => (
   <Paper  style={StylePaper}  zDepth={1} >
     <FontIcon style={FontStyle}   className="fa fa-user-circle-o fa-2x" aria-hidden="true"  />
   <div id="PostText">
-    <TextField textareaStyle={TextStyle} hintStyle={HintStyle} underlineStyle={HintStyle} underlineStyle={{display: 'none'}}
+    <TextField textareaStyle={TextStyle}  underlineStyle={HintStyle} underlineStyle={{display: 'none'}}
       inputStyle={InputText}           hintText="Whats Happing?"
     // floatingLabelText="MultiLine and FloatingLabel"
       multiLine={true}

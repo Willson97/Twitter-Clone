@@ -1,12 +1,7 @@
 import React from 'react';
 import {Card, CardActions, CardHeader, CardMedia, CardTitle, CardText} from 'material-ui/Card';
-import FlatButton from 'material-ui/FlatButton';
-import TwitterImage from './Images/Twitter.png' ;
-//import Aadhar1 from './Images/Aadhar1.jpg';
-import Avatar from 'material-ui/Avatar';
 import FontIcon from 'material-ui/FontIcon';
 import IconButton from 'material-ui/IconButton';
-import RaisedButton from 'material-ui/RaisedButton';
 import Paper from 'material-ui/Paper';
 var StyleMainCard={
 
@@ -76,25 +71,25 @@ const TopNewsCard2 = () => (
   <div>
     <span>  <IconButton tooltip="Reply" style={{float:"left"}}>
           <FontIcon className="fa fa-comment-o" aria-hidden="true" />
-          // use An IconButton to generate a button element around an icon
+   
          </IconButton>
   </span>
   <span>
          <IconButton tooltip="Retweet" style={{float:"left"}}  >
              <FontIcon className="fa fa-retweet" aria-hidden="true" />
-             // use An IconButton to generate a button element around an icon
+            
             </IconButton>
     </span>
     <span  style={{float:"right"}}>
            <IconButton tooltip="Direct Message">
                <FontIcon className="fa fa-envelope-o" aria-hidden="true"/>
-               // use An IconButton to generate a button element around an icon
+              
               </IconButton>
       </span>
       <span style={{float:"right"}}>
              <IconButton tooltip="Like">
                  <FontIcon className="fa fa-heart-o" aria-hidden="true" /> label="700"
-                 // use An IconButton to generate a button element around an icon
+            
                 </IconButton>
         </span>
 

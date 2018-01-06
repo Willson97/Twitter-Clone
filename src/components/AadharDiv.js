@@ -1,8 +1,4 @@
-import React, { Component } from 'react';
-import ReactDom from 'react-dom';
-import cyan500 from 'material-ui/styles/colors';
-
-
+import React from 'react';
 
 
 const AadharDiv = () => (

@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { render } from 'react-dom';
 import './index.css';
 import App from './App';
-import SuperComponent1 from './components/SuperComponent1';
+//import SuperComponent1 from './components/SuperComponent1';
 import SuperComponent2  from './components/SuperComponent2';
 
 import registerServiceWorker from './registerServiceWorker';

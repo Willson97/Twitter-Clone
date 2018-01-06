@@ -1,14 +1,6 @@
 import React from 'react';
 import Paper from 'material-ui/Paper';
-import Avatar from 'material-ui/Avatar';
-import FileFolder from 'material-ui/svg-icons/file/folder';
-import FontIcon from 'material-ui/FontIcon';
-import List from 'material-ui/List/List';
-import ListItem from 'material-ui/List/ListItem';
 import Divider from 'material-ui/Divider';
-import FlatButton from 'material-ui/FlatButton';
-
-import {blue500,red900,cyan800,black} from 'material-ui/styles/colors';
 import '../App.css';
 
 const style = {
@@ -20,7 +12,7 @@ const style = {
   display: 'inline-block',
 
 };
-const style2 = {
+/*  const style2 = {
   height: '100px',
   width: '140px',
 
@@ -28,6 +20,7 @@ const style2 = {
   display: 'inline-block',
 
 };
+*/
 
 const PageChip = () => (
 <div className="PageChipOuterDiv">

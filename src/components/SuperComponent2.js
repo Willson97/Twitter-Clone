@@ -1,22 +1,9 @@
 import React, { Component } from 'react';
-import ReactDom from 'react-dom';
-import Projects from './Projects' ;
-import IconButton from 'material-ui/IconButton';
 import '../App2.css';
-
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-
-
  import Appbar  from './Appbar';
- import Postbar1  from './Postbar1';
-
-import Card2  from './Card2';
-import Profilesection from './Profilesection';
 import WhoToFollow2 from './WhoToFollow2';
-import Trends from './Trends';
-import PostSection from './PostSection';
-import Searchbar from './Searchbar';
-import PageChip from './PageChip';
+//import PageChip from './PageChip';
 import AadharDiv from './AadharDiv';
 import Toolbar2 from './Toolbar2';
 import RelatedSearch from './RelatedSearch';

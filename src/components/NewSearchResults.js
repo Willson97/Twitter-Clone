@@ -1,11 +1,5 @@
 import React from 'react';
 import Paper from 'material-ui/Paper';
-import Avatar from 'material-ui/Avatar';
-import FileFolder from 'material-ui/svg-icons/file/folder';
-import FontIcon from 'material-ui/FontIcon';
-import List from 'material-ui/List/List';
-import ListItem from 'material-ui/List/ListItem';
-import Twitter from './Images/Twitter.png';
 import '../App.css';
 
 

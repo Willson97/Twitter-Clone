@@ -1,18 +1,10 @@
 import React from 'react';
 import Paper from 'material-ui/Paper';
 import Avatar from 'material-ui/Avatar';
-import FileFolder from 'material-ui/svg-icons/file/folder';
-import FontIcon from 'material-ui/FontIcon';
-import List from 'material-ui/List/List';
-import ListItem from 'material-ui/List/ListItem';
-import MoreVertIcon from 'material-ui/svg-icons/navigation/more-vert';
 import FlatButton from 'material-ui/FlatButton';
-import Divider from 'material-ui/Divider';
-import {blue500,red900,cyan800,black} from 'material-ui/styles/colors';
 import '../App2.css';
-import IconMenu from 'material-ui/IconMenu';
-import IconButton from 'material-ui/IconButton';
-import MenuItem from 'material-ui/MenuItem';
+
+
 
 var style = {
   height: '100px',
@@ -57,7 +49,7 @@ const People21 = () => (
 <div className="FirstPaper" width='100%'>
 
    <span ><Paper style={style} zDepth={1} >
-    <img className="AadharImage" src="./Images/AadharBack.jpg" />
+    <img className="AadharImage" src="./Images/AadharBack.jpg" alt="aadahar" />
     </Paper>
 
     </span>
