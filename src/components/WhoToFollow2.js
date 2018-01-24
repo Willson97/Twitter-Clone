@@ -14,7 +14,11 @@ const style = {
   textAlign: 'center',
   display: 'inline-block',
   float:'left',
+<<<<<<< HEAD
   position:'relative' ,
+=======
+  position:'absolute' ,
+>>>>>>> parent of 89b8a25... initial commit
   top:'70px',
 
 };

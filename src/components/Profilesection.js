@@ -22,7 +22,11 @@ const Profilesection = () => (
     <Paper style={style} zDepth={1} >
 
         <div className="UpperSection " width="50%">
+<<<<<<< HEAD
 
+=======
+         
+>>>>>>> parent of 89b8a25... initial commit
          </div>
       <div className="" width="50%">
       <List>
@@ -32,7 +36,11 @@ const Profilesection = () => (
           <span className="ProfileSectionAvatar">
           <Avatar
 
+<<<<<<< HEAD
              src ="../Images/Willson1.jpg"
+=======
+             src ="../Images/Willson.jpg"
+>>>>>>> parent of 89b8a25... initial commit
             size={80}
                 />
             </span>
