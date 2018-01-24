@@ -14,7 +14,7 @@ const style = {
   textAlign: 'center',
   display: 'inline-block',
   float:'left',
-  position:'absolute' ,
+  position:'relative' ,
   top:'70px',
 
 };

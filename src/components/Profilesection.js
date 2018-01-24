@@ -22,7 +22,7 @@ const Profilesection = () => (
     <Paper style={style} zDepth={1} >
 
         <div className="UpperSection " width="50%">
-         
+
          </div>
       <div className="" width="50%">
       <List>
@@ -32,7 +32,7 @@ const Profilesection = () => (
           <span className="ProfileSectionAvatar">
           <Avatar
 
-             src ="../Images/Willson.jpg"
+             src ="../Images/Willson1.jpg"
             size={80}
                 />
             </span>
